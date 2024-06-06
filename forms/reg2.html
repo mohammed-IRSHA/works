@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reistretion</title>
+</head>
+<style>
+    .container {
+        width: 600px;
+        height: 400px;
+        color: aliceblue;
+        background-color: #000;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        ;
+    }
+
+    body {
+        background-color: rgb(112, 112, 108);
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_container {
+        display: flex;
+        flex: 1;
+        width: 100%;
+    }
+
+    .hero {
+        max-width: 100%;
+        border-radius: 10px;
+        height: 400px;
+        object-fit: cover;
+        margin: auto;
+
+    }
+
+    .form_container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_container form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_container h1 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .form_container form input {
+        border-radius: 4px;
+        padding: 2px;
+        outline: none;
+        width: 200px;
+        background-color: #000;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #1890ff;
+        border-color: white;
+    }
+
+    .form_container .btn {
+        background: red;
+        padding: 4px;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        width: 200px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="image_container">
+            <img class="hero" src="ali.jpg" alt="hi">
+        </div>
+        <div class="form_container">
+            <h1>Registretion form</h1>
+            <form action="">
+
+                <input type="text" name="fname" id="fname" placeholder="Name"><br>
+
+                <input type="text" name="lname" id="lname" placeholder="second name"><br>
+
+                <input type="text" name="address" id="address" placeholder="Address"><br>
+
+                <input type="text" name="contact" id="contact" placeholder="Ph number"><br>
+
+                <input type="text" name="Zip Code" id="Zip Code" placeholder="Zip Code"><br>
+
+                <input type="text" name="use name" id="usr name" placeholder="User Name"><br>
+
+                <input type="text" name="Email" id="Email" placeholder="Email"><br>
+
+                <input class="btn" type="submit" value="submit">
+
+
+
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

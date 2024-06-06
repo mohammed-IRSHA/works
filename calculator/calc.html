@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calclator</title>
+</head>
+<style>
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100wh;
+    margin: 5%;
+    background-color: rgb(71, 84, 93)
+   
+    }
+  main{
+    width: 200px;
+    background-color: rgb(38, 38, 71);
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 8px 8px 15px;
+  }
+
+  .display {
+    width: 100%;
+    height: 40px;
+    background-color: #242248;  
+    border: none;
+    box-shadow: -1px -1px 1px black; 
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.buttons input{
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: rgb(247, 251, 254);
+  border-radius: 3px;
+  border:none;
+  border-radius:3px ;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
+
+table{
+  width: 100%;
+  background-color: rgb(29, 29, 55);
+}
+
+td{
+  padding: 3px;
+}
+
+</style>
+<body>
+  <div class="main">
+    <input type="text" class="display" readonly style="background-color: rgb(49, 190, 80);">
+    <div class="buttons" >
+       <table>
+        <tr>
+            <td><input type="button" value="c" style="background-color:rgb(205, 66, 66)"></td>
+            <td><input type="button" value="<" style="background-color: rgb(218, 54, 54);"></td>
+            <td><input type="button" value="\"></td>
+            <td><input type="button" value="*"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="7"></td>
+          <td><input type="button" value="8" ></td>
+          <td><input type="button" value="9"></td>
+          <td><input type="button" value="-"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="4"></td>
+          <td><input type="button" value="5" ></td>
+          <td><input type="button" value="6"></td>
+          <td rowspan="2"><input type="button" value="+" style="height: 90px;"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="1"></td>
+          <td><input type="button" value="2" ></td>
+          <td><input type="button" value="3" ></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" value="0"></td>
+          <td><input type="button" value="."></td>
+          <td colspan="2"><input type="button" value="="></td>
+        </tr>
+      </table>
+    </div>
+  </div>    
+</body>
+</html> 
